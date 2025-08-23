@@ -1,0 +1,15 @@
+{
+  "name": "digital-twin",
+  "version": "1.0.0",
+  "description": "Digital Twin of an Rural Village",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "both": "concurrently \"npm run dev --prefix frontend\" \"nodemon index.js --prefix backend\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
